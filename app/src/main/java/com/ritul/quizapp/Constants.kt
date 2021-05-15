@@ -2,7 +2,6 @@ package com.ritul.quizapp
 
 object Constants {
 
-    const val USER_NAME: String = "user_name"
     const val TOTAL_QUESTIONS: String = "Total_question"
     const val CORRECT_ANSWER: String = "correct_answer"
 

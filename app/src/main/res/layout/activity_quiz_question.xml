@@ -16,7 +16,7 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/tv_question"
+            android:id="@+id/questions_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -59,7 +59,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/tv_option_one"
+            android:id="@+id/first_option"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -71,7 +71,7 @@
             tools:text="Apple" />
 
         <TextView
-            android:id="@+id/tv_option_two"
+            android:id="@+id/second_option"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -86,7 +86,7 @@
             tools:text="Google" />
 
         <TextView
-            android:id="@+id/tv_option_three"
+            android:id="@+id/third_option"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -101,7 +101,7 @@
             tools:text="Android Inc." />
 
         <TextView
-            android:id="@+id/tv_option_four"
+            android:id="@+id/fourth_option"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -116,7 +116,7 @@
             tools:text="Dell" />
 
         <Button
-            android:id="@+id/btn_submit"
+            android:id="@+id/submit_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"

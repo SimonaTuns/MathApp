@@ -2,7 +2,6 @@ package com.ritul.quizapp
 
 object ResConst {
 
-    const val TOTAL_QUESTIONS: String = "Total_question"
 
     fun getRes(): ArrayList<Resource>{
         val infoList = ArrayList<Resource>()

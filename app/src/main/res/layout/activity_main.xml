@@ -15,7 +15,7 @@
         android:id="@+id/tv_app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="QuizApp"
+        android:text="MathApp"
         android:layout_marginBottom="30dp"
         android:textStyle="bold"
         android:textSize="25sp"

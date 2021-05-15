@@ -13,8 +13,6 @@ class ResultActivity : AppCompatActivity() {
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        val userName = intent.getStringExtra(Constants.USER_NAME)
-        tv_name.text = userName
 
         val totalQuestion = intent.getIntExtra(Constants.TOTAL_QUESTIONS, 0)
         val correctAnswer = intent.getIntExtra(Constants.CORRECT_ANSWER, 0)
@@ -34,6 +32,10 @@ class ResultActivity : AppCompatActivity() {
 
         btn_finish.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
+        btn_another.setOnClickListener {
+            startActivity(Intent(this, PickQuiz::class.java))
             finish()
         }
     }

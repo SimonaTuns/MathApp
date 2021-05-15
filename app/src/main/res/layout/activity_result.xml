@@ -54,7 +54,7 @@
         android:textColor="@android:color/secondary_text_dark"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:text="Your Score is 9 out of 10" />
+        tools:text="Your score's 9 out of 10" />
 
     <Button
         android:id="@+id/btn_finish"
@@ -63,6 +63,16 @@
         android:layout_marginTop="10dp"
         android:background="@android:color/white"
         android:text="FINISH"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_another"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="Another quiz"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold" />
