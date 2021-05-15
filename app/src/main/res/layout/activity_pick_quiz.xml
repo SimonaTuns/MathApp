@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".PickQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="100dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/quiz1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="7dp"
+            android:layout_margin="8dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 1"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/quiz2_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_margin="8dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 2"
+            android:textColor="#fff" />
+
+
+         <Button
+            android:id="@+id/quiz3_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_margin="8dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 3"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/quiz4_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_margin="8dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 4"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/quiz5_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_margin="8dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 5"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/quiz6_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:background="#5B8930"
+            android:padding="16dp"
+            android:text="Quiz 6"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/more"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:background="#1f6639"
+            android:padding="16dp"
+            android:text="More resources"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+</ScrollView >
